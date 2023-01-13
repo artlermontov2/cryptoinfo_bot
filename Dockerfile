@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY requirements.txt requirements.txt
 
-ENV BOT_TOKEN=5717241467:AAHYLKwOGnDY7Dghb5B7bmu2V81QteLIhnc
+ENV BOT_TOKEN=YOUR_BOT_TOKEN
 
 RUN pip3 install -r requirements.txt
 
